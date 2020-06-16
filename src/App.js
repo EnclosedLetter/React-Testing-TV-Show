@@ -13,7 +13,7 @@ export default function App() {
   const [seasons, setSeasons] = useState([]);
   const [selectedSeason, setSelectedSeason] = useState("");
   const episodes = seasons[selectedSeason] || [];
-
+//setting up useEffect
   useEffect(() => {
     const fetchShow = () => {
       axios
